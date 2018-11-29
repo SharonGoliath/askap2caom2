@@ -113,7 +113,10 @@ class AskapName(ec.StorageName):
     @staticmethod
     def scheme():
         """ASKAP schema - guessing."""
-        return 'casda'
+        # return 'casda'
+        # changed to vos 28/11/18 at SG's request
+        # return 'vos://cadc.nrc.ca!vospace'  TODO
+        return 'vos'
 
     @staticmethod
     def get_obs_id(file_name):

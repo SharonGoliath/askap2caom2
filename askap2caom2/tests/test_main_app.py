@@ -89,9 +89,12 @@ def pytest_generate_tests(metafunc):
                  os.listdir(TESTDATA_DIR) if
                  (name.endswith('header') or name.endswith('.csv'))]
         metafunc.parametrize('test_name', files)
+    # files = [os.path.join(
+    #     TESTDATA_DIR,
+    #     'selavy-image.i.SB5175.cont.taylor.0.restored.components.csv')]
+    # metafunc.parametrize('test_name', files)
 
 
-# @pytest.mark.parametrize('test_name', [])
 def test_main_app(test_name):
     basename = os.path.basename(test_name)
     obs_id = AskapName.get_obs_id(basename)
@@ -105,11 +108,6 @@ def test_main_app(test_name):
 
     with patch('caom2utils.fits2caom2.CadcDataClient') as data_client_mock:
         def get_file_info(archive, file_id):
-            if '_prev' in file_id:
-                return {'size': 10290,
-                        'md5sum': md5('-37'.encode()).hexdigest(),
-                        'type': 'image/jpeg'}
-            else:
                 return {'size': 37,
                         'md5sum': md5('-37'.encode()).hexdigest(),
                         'type': 'application/fits'}
@@ -117,7 +115,7 @@ def test_main_app(test_name):
             get_file_info
 
         sys.argv = \
-            ('{} --no_validate --local {} '
+            ('{} --debug --no_validate --local {} '
              '--plugin {} --module {} --observation {} {} -o {} --lineage {}'.
              format(APPLICATION, local, plugin, plugin, COLLECTION, obs_id,
                     output_file, lineage)).split()

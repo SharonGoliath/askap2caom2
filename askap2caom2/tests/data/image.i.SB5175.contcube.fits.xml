@@ -16,11 +16,11 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-8b0c-77acab81f4d2">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.contcube.fits</caom2:uri>
+          <caom2:uri>vos:ASKAP/image.i.SB5175.contcube.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
-          <caom2:contentLength>37</caom2:contentLength>
+          <caom2:contentLength>50557495680</caom2:contentLength>
           <caom2:contentChecksum>md5:e330482de75d5c4c88ce6f6ef99035ea</caom2:contentChecksum>
           <caom2:parts>
             <caom2:part caom2:id="00000000-0000-0000-a7a9-cc6b6d6ca068">
@@ -44,8 +44,8 @@
                       </caom2:axis2>
                       <caom2:function>
                         <caom2:dimension>
-                          <caom2:naxis1>7256</caom2:naxis1>
-                          <caom2:naxis2>7258</caom2:naxis2>
+                          <caom2:naxis1>1</caom2:naxis1>
+                          <caom2:naxis2>1</caom2:naxis2>
                         </caom2:dimension>
                         <caom2:refCoord>
                           <caom2:coord1>

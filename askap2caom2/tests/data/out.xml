@@ -93,7 +93,7 @@
       </caom2:polarization>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-a5ae-4ae9b4251efc" caom2:lastModified="2018-11-16T00:30:54.952" caom2:maxLastModified="2018-11-16T00:30:54.952" caom2:metaChecksum="md5:8252ade7059c139c25cde32a20987da6" caom2:accMetaChecksum="md5:db9713a632b0ba0659f190fd20d81247">
-          <caom2:uri>casda:ASKAP/componentMap_image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/componentMap_image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -181,7 +181,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-9325-8a07e5d87094">
-          <caom2:uri>casda:ASKAP/componentResidual_image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/componentResidual_image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
           <caom2:productType>auxiliary</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -278,7 +278,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-8b0c-77acab81f4d2">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.contcube.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.i.SB5175.contcube.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -367,7 +367,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-879a-25e9e17fe95f">
-          <caom2:uri>casda:ASKAP/residual.i.SB5175.contcube.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/residual.i.SB5175.contcube.fits</caom2:uri>
           <caom2:productType>auxiliary</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -456,7 +456,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-9342-909d010effbc">
-          <caom2:uri>casda:ASKAP/weights.i.SB5175.contcube.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/weights.i.SB5175.contcube.fits</caom2:uri>
           <caom2:productType>weight</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -552,7 +552,7 @@
       <caom2:dataRelease>2018-10-12T03:11:35.015</caom2:dataRelease>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-9929-f363dddbc61b">
-          <caom2:uri>casda:ASKAP/selavy-image.i.SB5175.cont.taylor.0.restored.components.csv</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/selavy-image.i.SB5175.cont.taylor.0.restored.components.csv</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>text/csv</caom2:contentType>
@@ -569,7 +569,7 @@
       <caom2:calibrationLevel>4</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-8d24-ebcfd23d1748">
-          <caom2:uri>casda:ASKAP/selavy-image.i.SB5175.cont.taylor.0.restored.islands.csv</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/selavy-image.i.SB5175.cont.taylor.0.restored.islands.csv</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>text/csv</caom2:contentType>
@@ -587,7 +587,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-9fd3-68942f5434a7">
-          <caom2:uri>casda:ASKAP/weights.i.SB5175.cont.taylor.0.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/weights.i.SB5175.cont.taylor.0.fits</caom2:uri>
           <caom2:productType>weight</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -675,7 +675,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-870e-f9b8f94a3ee7">
-          <caom2:uri>casda:ASKAP/residual.i.SB5175.cont.taylor.0.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/residual.i.SB5175.cont.taylor.0.fits</caom2:uri>
           <caom2:productType>auxiliary</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -763,7 +763,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-9a68-deecaa938887">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.cont.taylor.0.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.i.SB5175.cont.taylor.0.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -860,7 +860,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-a40b-4496fb508c7b">
-          <caom2:uri>casda:ASKAP/weights.i.SB5175.cont.taylor.1.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/weights.i.SB5175.cont.taylor.1.fits</caom2:uri>
           <caom2:productType>weight</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -948,7 +948,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-ba48-16d13cda3ea9">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.cont.taylor.1.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.i.SB5175.cont.taylor.1.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -1036,7 +1036,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-8d83-3bd561649e42">
-          <caom2:uri>casda:ASKAP/residual.i.SB5175.cont.taylor.1.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/residual.i.SB5175.cont.taylor.1.fits</caom2:uri>
           <caom2:productType>auxiliary</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -1133,7 +1133,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-9ec1-efb4cbdf8c5c">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -1221,7 +1221,7 @@
           </caom2:parts>
         </caom2:artifact>
         <caom2:artifact caom2:id="00000000-0000-0000-accd-ee7ede124e49">
-          <caom2:uri>casda:ASKAP/noiseMap.image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/noiseMap.image.i.SB5175.cont.taylor.0.restored.fits</caom2:uri>
           <caom2:productType>noise</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -1318,7 +1318,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-ade9-23fbc328a506">
-          <caom2:uri>casda:ASKAP/image.i.SB5175.cont.taylor.1.restored.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.i.SB5175.cont.taylor.1.restored.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
@@ -1415,7 +1415,7 @@
       <caom2:calibrationLevel>2</caom2:calibrationLevel>
       <caom2:artifacts>
         <caom2:artifact caom2:id="00000000-0000-0000-bc83-aa93d937dfe0">
-          <caom2:uri>casda:ASKAP/image.restored.i.SB5175.contcube.fits</caom2:uri>
+          <caom2:uri>vos://cadc.nrc.ca!vospace/ASKAP/image.restored.i.SB5175.contcube.fits</caom2:uri>
           <caom2:productType>science</caom2:productType>
           <caom2:releaseType>data</caom2:releaseType>
           <caom2:contentType>application/fits</caom2:contentType>
