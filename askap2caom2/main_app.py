@@ -204,7 +204,7 @@ def update(observation, **kwargs):
         fqn = kwargs['fqn']
 
     logging.debug('Done update.')
-    return True
+    return observation
 
 
 def _get_calibration_level(uri):
